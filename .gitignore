@@ -1,3 +1,14 @@
+# 拡張子のないファイル(この場合実行ファイル)を無視
+### 拡張子のないファイル = すべてのファイルとディレクトリ - すべてのディレクトリ - すべての拡張子のついたファイル
+##### https://qiita.com/padawan_e15/items/7ba90f09e3ecd559f95b
+*
+!*/
+!*.*
+
+# 上記でgitignore_globalが機能しなくなる
+.DS_Store
+
+############# C++ template #############
 # Prerequisites
 *.d
 
@@ -30,3 +41,6 @@
 *.exe
 *.out
 *.app
+
+############# VSCode #############
+tempCodeRunnerFile.cpp
